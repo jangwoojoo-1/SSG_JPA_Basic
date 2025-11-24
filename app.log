@@ -1,0 +1,249 @@
+2025-11-24T09:52:51.419+09:00  INFO 25192 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 25192 (C:\study\gallery\build\classes\java\main started by JangwooJoo in C:\study\gallery)
+2025-11-24T09:52:51.426+09:00 DEBUG 25192 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-24T09:52:51.428+09:00  INFO 25192 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T09:52:54.064+09:00  INFO 25192 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-24T09:52:54.102+09:00  INFO 25192 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-24T09:52:54.112+09:00  INFO 25192 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-24T09:52:54.334+09:00  INFO 25192 --- [gallery] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2779 ms
+2025-11-24T09:52:55.246+09:00  WARN 25192 --- [gallery] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-11-24T09:52:55.254+09:00  INFO 25192 --- [gallery] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-11-24T09:52:55.288+09:00  INFO 25192 --- [gallery] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-24T09:52:55.341+09:00 ERROR 25192 --- [gallery] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2025-11-24T09:53:40.525+09:00  INFO 33564 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 33564 (C:\study\gallery\build\classes\java\main started by JangwooJoo in C:\study\gallery)
+2025-11-24T09:53:40.533+09:00 DEBUG 33564 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-24T09:53:40.536+09:00  INFO 33564 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T09:53:42.966+09:00  INFO 33564 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-24T09:53:43.006+09:00  INFO 33564 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-24T09:53:43.008+09:00  INFO 33564 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-24T09:53:43.365+09:00  INFO 33564 --- [gallery] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2634 ms
+2025-11-24T09:53:44.248+09:00  WARN 33564 --- [gallery] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-11-24T09:53:44.256+09:00  INFO 33564 --- [gallery] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-11-24T09:53:44.286+09:00  INFO 33564 --- [gallery] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-24T09:53:44.334+09:00 ERROR 33564 --- [gallery] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2025-11-24T09:56:08.064+09:00  INFO 27844 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 27844 (C:\study\gallery\build\classes\java\main started by JangwooJoo in C:\study\gallery)
+2025-11-24T09:56:08.072+09:00 DEBUG 27844 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-24T09:56:08.073+09:00  INFO 27844 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T09:56:10.333+09:00  INFO 27844 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-24T09:56:10.369+09:00  INFO 27844 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-24T09:56:10.370+09:00  INFO 27844 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-24T09:56:10.525+09:00  INFO 27844 --- [gallery] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2324 ms
+2025-11-24T09:56:11.573+09:00  INFO 27844 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-24T09:56:11.586+09:00  INFO 27844 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Started GalleryApplication in 4.777 seconds (process running for 7.147)
+2025-11-24T09:57:59.614+09:00  INFO 27844 --- [gallery] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-24T09:57:59.615+09:00  INFO 27844 --- [gallery] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-24T09:57:59.619+09:00  INFO 27844 --- [gallery] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-11-24T09:58:25.444+09:00  INFO 27844 --- [gallery] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-24T09:58:26.020+09:00  INFO 27844 --- [gallery] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-11-24T09:58:32.362+09:00  INFO 20556 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 20556 (C:\study\gallery\build\classes\java\main started by JangwooJoo in C:\study\gallery)
+2025-11-24T09:58:32.374+09:00 DEBUG 20556 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-24T09:58:32.375+09:00  INFO 20556 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T09:58:35.234+09:00  INFO 20556 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-24T09:58:35.283+09:00  INFO 20556 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-24T09:58:35.284+09:00  INFO 20556 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-24T09:58:35.459+09:00  INFO 20556 --- [gallery] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2934 ms
+2025-11-24T09:58:36.340+09:00  WARN 20556 --- [gallery] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-11-24T09:58:36.348+09:00  INFO 20556 --- [gallery] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-11-24T09:58:36.379+09:00  INFO 20556 --- [gallery] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-24T09:58:36.429+09:00 ERROR 20556 --- [gallery] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2025-11-24T09:59:11.819+09:00  INFO 7816 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 7816 (C:\study\gallery\build\classes\java\main started by JangwooJoo in C:\study\gallery)
+2025-11-24T09:59:11.826+09:00 DEBUG 7816 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-24T09:59:11.828+09:00  INFO 7816 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T09:59:15.121+09:00  INFO 7816 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-24T09:59:15.176+09:00  INFO 7816 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-24T09:59:15.177+09:00  INFO 7816 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-24T09:59:15.395+09:00  INFO 7816 --- [gallery] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3414 ms
+2025-11-24T09:59:16.690+09:00  INFO 7816 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-24T09:59:16.704+09:00  INFO 7816 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Started GalleryApplication in 7.098 seconds (process running for 11.374)
+2025-11-24T09:59:42.114+09:00  INFO 7816 --- [gallery] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-24T09:59:42.767+09:00  INFO 7816 --- [gallery] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-11-24T09:59:49.159+09:00  INFO 36976 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 36976 (C:\study\gallery\build\classes\java\main started by JangwooJoo in C:\study\gallery)
+2025-11-24T09:59:49.170+09:00 DEBUG 36976 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-24T09:59:49.171+09:00  INFO 36976 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T09:59:51.804+09:00  INFO 36976 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-24T09:59:51.854+09:00  INFO 36976 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-24T09:59:51.855+09:00  INFO 36976 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-24T09:59:52.054+09:00  INFO 36976 --- [gallery] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2739 ms
+2025-11-24T09:59:53.101+09:00  WARN 36976 --- [gallery] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/jdbc/autoconfigure/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2025-11-24T09:59:53.114+09:00  INFO 36976 --- [gallery] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-11-24T09:59:53.162+09:00  INFO 36976 --- [gallery] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-24T09:59:53.235+09:00 ERROR 36976 --- [gallery] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (no profiles are currently active).
+
+2025-11-24T10:00:21.018+09:00  INFO 37368 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 37368 (C:\study\gallery\build\classes\java\main started by JangwooJoo in C:\study\gallery)
+2025-11-24T10:00:21.027+09:00 DEBUG 37368 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-24T10:00:21.027+09:00  INFO 37368 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T10:00:23.034+09:00  INFO 37368 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-24T10:00:23.067+09:00  INFO 37368 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-24T10:00:23.067+09:00  INFO 37368 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-24T10:00:23.232+09:00  INFO 37368 --- [gallery] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2055 ms
+2025-11-24T10:00:24.156+09:00  INFO 37368 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-24T10:00:24.169+09:00  INFO 37368 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Started GalleryApplication in 4.575 seconds (process running for 6.866)
+2025-11-24T10:00:31.637+09:00  INFO 37368 --- [gallery] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-24T10:00:31.638+09:00  INFO 37368 --- [gallery] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-24T10:00:31.651+09:00  INFO 37368 --- [gallery] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 13 ms
+2025-11-24T10:11:59.176+09:00  INFO 37368 --- [gallery] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-24T10:12:00.520+09:00  INFO 37368 --- [gallery] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-11-24T10:25:53.538+09:00  INFO 4296 --- [gallery] [Test worker] c.ssg.gallery.GalleryApplicationTests    : Starting GalleryApplicationTests using Java 17.0.15 with PID 4296 (started by JangwooJoo in C:\study\gallery)
+2025-11-24T10:25:53.549+09:00 DEBUG 4296 --- [gallery] [Test worker] c.ssg.gallery.GalleryApplicationTests    : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-24T10:25:53.559+09:00  INFO 4296 --- [gallery] [Test worker] c.ssg.gallery.GalleryApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T10:25:58.912+09:00  INFO 4296 --- [gallery] [Test worker] c.ssg.gallery.GalleryApplicationTests    : Started GalleryApplicationTests in 7.224 seconds (process running for 15.524)
+2025-11-24T11:08:20.478+09:00  INFO 27036 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 27036 (C:\study\gallery\build\classes\java\main started by JangwooJoo in C:\study\gallery)
+2025-11-24T11:08:20.487+09:00 DEBUG 27036 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-24T11:08:20.488+09:00  INFO 27036 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T11:08:22.610+09:00  INFO 27036 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-24T11:08:22.682+09:00  INFO 27036 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-24T11:08:22.684+09:00  INFO 27036 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-24T11:08:22.901+09:00  INFO 27036 --- [gallery] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2273 ms
+2025-11-24T11:08:23.865+09:00  INFO 27036 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-24T11:08:23.878+09:00  INFO 27036 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Started GalleryApplication in 4.809 seconds (process running for 8.435)
+2025-11-24T11:08:50.122+09:00  INFO 27036 --- [gallery] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-24T11:08:50.123+09:00  INFO 27036 --- [gallery] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-24T11:08:50.127+09:00  INFO 27036 --- [gallery] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-11-24T11:12:39.694+09:00  INFO 27036 --- [gallery] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-24T11:12:40.615+09:00  INFO 27036 --- [gallery] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-11-24T11:13:02.650+09:00  INFO 39492 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 39492 (C:\study\gallery\build\classes\java\main started by JangwooJoo in C:\study\gallery)
+2025-11-24T11:13:02.661+09:00 DEBUG 39492 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-24T11:13:02.663+09:00  INFO 39492 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T11:13:06.627+09:00  INFO 39492 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-24T11:13:06.693+09:00  INFO 39492 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-24T11:13:06.693+09:00  INFO 39492 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-24T11:13:07.041+09:00  INFO 39492 --- [gallery] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4252 ms
+2025-11-24T11:13:08.701+09:00  INFO 39492 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-11-24T11:13:08.716+09:00  INFO 39492 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Started GalleryApplication in 7.562 seconds (process running for 11.195)
+2025-11-24T11:14:05.777+09:00  INFO 39492 --- [gallery] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-24T11:14:05.778+09:00  INFO 39492 --- [gallery] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-24T11:14:05.781+09:00  INFO 39492 --- [gallery] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-24T12:27:37.251+09:00  INFO 39492 --- [gallery] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2025-11-24T12:27:38.061+09:00  INFO 39492 --- [gallery] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2025-11-24T12:28:01.735+09:00  INFO 15292 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 15292 (C:\study\gallery\build\classes\java\main started by JangwooJoo in C:\study\gallery)
+2025-11-24T12:28:01.746+09:00 DEBUG 15292 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-24T12:28:01.748+09:00  INFO 15292 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T12:28:04.427+09:00  INFO 15292 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-24T12:28:04.468+09:00  INFO 15292 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-24T12:28:04.470+09:00  INFO 15292 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-24T12:28:04.653+09:00  INFO 15292 --- [gallery] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2753 ms
+2025-11-24T12:28:04.868+09:00  WARN 15292 --- [gallery] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'itemController' defined in file [C:\study\gallery\build\classes\java\main\com\ssg\gallery\item\controller\ItemController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'baseItemService' defined in file [C:\study\gallery\build\classes\java\main\com\ssg\gallery\item\service\BaseItemService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.ssg.gallery.item.repository.ItemRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-11-24T12:28:04.876+09:00  INFO 15292 --- [gallery] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-11-24T12:28:04.908+09:00  INFO 15292 --- [gallery] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-24T12:28:04.962+09:00 ERROR 15292 --- [gallery] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.ssg.gallery.item.service.BaseItemService required a bean of type 'com.ssg.gallery.item.repository.ItemRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ssg.gallery.item.repository.ItemRepository' in your configuration.
+
+2025-11-24T12:29:36.861+09:00  INFO 38676 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Starting GalleryApplication using Java 17.0.15 with PID 38676 (C:\study\gallery\build\classes\java\main started by JangwooJoo in C:\study\gallery)
+2025-11-24T12:29:36.870+09:00 DEBUG 38676 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : Running with Spring Boot v4.0.0, Spring v7.0.1
+2025-11-24T12:29:36.871+09:00  INFO 38676 --- [gallery] [main] com.ssg.gallery.GalleryApplication       : No active profile set, falling back to 1 default profile: "default"
+2025-11-24T12:29:39.233+09:00  INFO 38676 --- [gallery] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-11-24T12:29:39.273+09:00  INFO 38676 --- [gallery] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-24T12:29:39.274+09:00  INFO 38676 --- [gallery] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-11-24T12:29:39.545+09:00  INFO 38676 --- [gallery] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2541 ms
+2025-11-24T12:29:39.865+09:00  WARN 38676 --- [gallery] [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'itemController' defined in file [C:\study\gallery\build\classes\java\main\com\ssg\gallery\item\controller\ItemController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'baseItemService' defined in file [C:\study\gallery\build\classes\java\main\com\ssg\gallery\item\service\BaseItemService.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.ssg.gallery.item.repository.ItemRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-11-24T12:29:39.879+09:00  INFO 38676 --- [gallery] [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-11-24T12:29:39.913+09:00  INFO 38676 --- [gallery] [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-11-24T12:29:39.974+09:00 ERROR 38676 --- [gallery] [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.ssg.gallery.item.service.BaseItemService required a bean of type 'com.ssg.gallery.item.repository.ItemRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.ssg.gallery.item.repository.ItemRepository' in your configuration.
+
