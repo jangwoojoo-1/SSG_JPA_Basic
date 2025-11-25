@@ -7,6 +7,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @RequiredArgsConstructor
@@ -21,5 +22,12 @@ public class BaseItemService implements ItemService {
     @Override
     public List<ItemRead> findAll(List<Integer> ids) {
         return itemRepository.findAllByIdIn(ids).stream().map(Item::toRead).toList();
+    }
+
+    @Override
+    public ItemRead find(Integer id) {
+        Optional<Item> itemOptional = itemRepository.findById(id);
+
+        return itemOptional.map(Item::toRead).orElse(null);
     }
 }

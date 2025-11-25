@@ -1,7 +1,6 @@
 package com.ssg.gallery.item.controller;
 
 import com.ssg.gallery.item.dto.ItemRead;
-import com.ssg.gallery.item.entity.Item;
 import com.ssg.gallery.item.service.ItemService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
